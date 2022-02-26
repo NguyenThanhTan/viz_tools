@@ -1,7 +1,3 @@
-Visualization code by Tan Nguyen February 2022.
-
-Code is in: Box\DCL_ARCHIVE\viz_tools
-
 ## Installation
 
 Install Anaconda.
@@ -30,12 +26,12 @@ Then, based on information from annotation file, possible labels will appear in 
 
 Output video layout can be determined by Grid column widget. Select #columns, then #rows will be inferred based on how many labels you identify in Multi-select widget (and #columns).
 
-Then select input video and fill in output video path (.avi).
+Then select input video.
 
 ### Render preview and video
 Click Render preview to see a frame from the to-be-rendered video. Change Multi-select widget or Grid column widget and render preview again if you want to change how the video should look.
 
-Once the preview looks good, you can specify sampling rate and click Draw to render the full video. Default sampling rate is the sampling rate from the input video, if you lower this number, the rendering process will run faster.
+Once the preview looks good, you can specify sampling rate and output video path, then click Draw to render the full video. Default sampling rate is the sampling rate from the input video, if you lower this number, the rendering process will run faster.
 
 ## Examples
 
