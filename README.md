@@ -1,12 +1,17 @@
 ## Installation
 
-Install Anaconda.
+### Install Anaconda.
 
 Create an environment: \
 ```conda env create -f environment_overlay.yml```
 
 Then activate the environment (named viz): \
 ```conda activate viz```
+
+### Git LFS
+Some example videos are big and saved in Git LFS. Please be sure to have it installed before cloning this repository. Otherwise, the example videos will be corrupted and not working!
+
+https://git-lfs.github.com/
 
 ## Usage
 
