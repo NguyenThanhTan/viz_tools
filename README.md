@@ -57,3 +57,5 @@ This app render a video with binary signals (such as event boundaries)
 Input examples for the second app is: RedBalloon_clip1_exp59_trimmed_shifted_seconds.txt and RedBalloon_clip1_excerpt.mov
 
 For the second app, output will be *.avi (without audio) and *.mp4 (with audio)
+
+Note: do not change the default output video extension (.avi) while using the app. .avi extension is reliable with opencv and ffmpeg. An .mp4 version will be generated automatically.
