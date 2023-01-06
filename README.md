@@ -44,7 +44,7 @@ Once the preview looks good, you can specify sampling rate and output video path
 
 This app render a video features (such as hand velocity, or segmentation norm)
 
-If the annotation file (*.csv) doesn't have information about timepoints, it'll infer sampling rate; otherwise it'll use the column named 'frame' to determine timepoints.
+If the annotation file (*.csv) doesn't have information about timepoints (a column named 'frame_id' or 'frame' indicating frame_id), it'll infer frame_ids based on #rows in the csv file and #frames the movie has, e.g.: frame_ids=0, 3, 6, ..., 17529; otherwise it'll use the column named 'frame' to determine timepoints.
 
 Input examples for the first app is: e51_bills.csv and e51_A_cut.mov
 
