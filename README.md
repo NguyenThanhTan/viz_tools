@@ -59,3 +59,7 @@ Input examples for the second app is: RedBalloon_clip1_exp59_trimmed_shifted_sec
 For the second app, output will be *.avi (without audio) and *.mp4 (with audio)
 
 Note: do not change the default output video extension (.avi) while using the app. .avi extension is reliable with opencv and ffmpeg. An .mp4 version will be generated automatically.
+
+## Adapter
+
+If your data is not in the input formats, use `adapter.ipynb` to convert your data to the input formats. There are examples to cut videos and segmentation annotations for overlay_1, there are examples to convert convoluted features (visual or segmentation) to the input format for overlay_2.
